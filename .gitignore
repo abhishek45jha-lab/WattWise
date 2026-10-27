@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/*
+!.vscode/launch.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Streamlit secrets/config
+.streamlit/secrets.toml
+
+# Temporary uploads and exports
+*.tmp
+~$*.pptx
